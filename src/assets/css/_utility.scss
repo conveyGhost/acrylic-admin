@@ -1,0 +1,261 @@
+// ------------------------------
+// Margin Start
+// ------------------------------
+// margin 0px ~ 100px
+@for $i from 0 through 10 {
+    .m#{$i * 5} {
+        margin:#{$i * 5}px !important;
+    }
+}
+
+@for $i from 0 through 10 {
+    .mt#{$i * 5} {
+        margin-top:#{$i * 5}px !important;
+    }
+}
+
+@for $i from 0 through 10 {
+    .mb#{$i * 5} {
+        margin-bottom:#{$i * 5}px !important;
+    }
+}
+
+@for $i from 0 through 10 {
+    .ml#{$i * 5} {
+        margin-left:#{$i * 5}px !important;
+    }
+}
+
+@for $i from 0 through 10 {
+    .mr#{$i * 5} {
+        margin-right:#{$i * 5}px !important;
+    }
+}
+
+@include media-is-pc {
+    @for $i from 0 through 10 {
+        .mt-pc#{$i * 5} {
+            margin-top:#{$i * 5}px !important;
+        }
+    }
+    @for $i from 0 through 10 {
+        .mb-pc#{$i * 5} {
+            margin-bottom:#{$i * 5}px !important;
+        }
+    }
+    @for $i from 0 through 10 {
+        .ml-pc#{$i * 5} {
+            margin-left:#{$i * 5}px !important;
+        }
+    }
+    @for $i from 0 through 10 {
+        .mr-pc#{$i * 5} {
+            margin-right:#{$i * 5}px !important;
+        }
+    }
+}
+
+@include media-sp {
+    @for $i from 0 through 10 {
+        .mt-sp#{$i * 5} {
+            margin-top:#{$i * 5}px !important;
+        }
+    }
+    @for $i from 0 through 10 {
+        .mb-sp#{$i * 5} {
+            margin-bottom:#{$i * 5}px !important;
+        }
+    }
+    @for $i from 0 through 10 {
+        .ml-sp#{$i * 5} {
+            margin-left:#{$i * 5}px !important;
+        }
+    }
+    @for $i from 0 through 10 {
+        .mr-sp#{$i * 5} {
+            margin-right:#{$i * 5}px !important;
+        }
+    }
+}
+
+// ------------------------------
+// Margin End
+// ------------------------------
+// ------------------------------
+// Padding Start
+// ------------------------------
+// Padding 0px ~ 100px
+@for $i from 0 through 10 {
+    .p#{$i * 5} {
+        padding:#{$i * 5}px !important;
+    }
+}
+
+@for $i from 0 through 10 {
+    .pt#{$i * 5} {
+        padding-top:#{$i * 5}px !important;
+    }
+}
+
+@for $i from 0 through 10 {
+    .pb#{$i * 5} {
+        padding-bottom:#{$i * 5}px !important;
+    }
+}
+
+@for $i from 0 through 10 {
+    .pl#{$i * 5} {
+        padding-left:#{$i * 5}px !important;
+    }
+}
+
+@for $i from 0 through 10 {
+    .pr#{$i * 5} {
+        padding-right:#{$i * 5}px !important;
+    }
+}
+
+@include media-is-pc {
+    @for $i from 0 through 10 {
+        .pt-pc#{$i * 5} {
+            padding-top:#{$i * 5}px !important;
+        }
+    }
+    @for $i from 0 through 10 {
+        .pb-pc#{$i * 5} {
+            padding-bottom:#{$i * 5}px !important;
+        }
+    }
+    @for $i from 0 through 10 {
+        .pl-pc#{$i * 5} {
+            padding-left:#{$i * 5}px !important;
+        }
+    }
+    @for $i from 0 through 10 {
+        .pr-pc#{$i * 5} {
+            padding-right:#{$i * 5}px !important;
+        }
+    }
+}
+
+@include media-sp {
+    @for $i from 0 through 10 {
+        .pt-sp#{$i * 5} {
+            padding-top:#{$i * 5}px !important;
+        }
+    }
+    @for $i from 0 through 10 {
+        .pb-sp#{$i * 5} {
+            padding-bottom:#{$i * 5}px !important;
+        }
+    }
+    @for $i from 0 through 10 {
+        .pl-sp#{$i * 5} {
+            padding-left:#{$i * 5}px !important;
+        }
+    }
+    @for $i from 0 through 10 {
+        .pr-sp#{$i * 5} {
+            padding-right:#{$i * 5}px !important;
+        }
+    }
+}
+
+// ------------------------------
+// Padding End
+// ------------------------------
+// ------------------------------
+// flex Start
+// ------------------------------
+.d-flex {
+    display: flex;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-between {
+    justify-content: space-between;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-rowwrap {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+@include media-is-pc {
+    .d-pc-flex {
+        display: flex;
+    }
+    .flex-pc-start {
+        justify-content: flex-start;
+    }
+    .flex-pc-center {
+        justify-content: center;
+    }
+    .flex-pc-end {
+        justify-content: flex-end;
+    }
+    .flex-pc-between {
+        justify-content: space-between;
+    }
+    .flex-pc-row {
+        flex-direction: row;
+    }
+    .flex-pc-rowwrap {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .flex-pc-col {
+        flex-direction: column;
+    }
+}
+
+@include media-sp {
+    .d-sp-flex {
+        display: flex;
+    }
+    .flex-sp-start {
+        justify-content: flex-start;
+    }
+    .flex-sp-center {
+        justify-content: center;
+    }
+    .flex-sp-end {
+        justify-content: flex-end;
+    }
+    .flex-sp-between {
+        justify-content: space-between;
+    }
+    .flex-sp-row {
+        flex-direction: row;
+    }
+    .flex-sp-rowwrap {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .flex-sp-col {
+        flex-direction: column;
+    }
+}
+
+// ------------------------------
+// flex End
+// ------------------------------

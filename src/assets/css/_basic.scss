@@ -1,0 +1,20 @@
+html,
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+    background: white;
+}
+
+.is-pc {
+    display: block;
+    @include media-sp {
+        display: none;
+    }
+}
+
+.is-sp {
+    display: none;
+    @include media-sp {
+        display: block;
+    }
+}

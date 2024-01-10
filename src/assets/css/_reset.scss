@@ -1,0 +1,44 @@
+img {
+    max-width: 100%;
+}
+
+*,
+dd,
+dl,
+dt,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+ol,
+picture,
+table,
+ul {
+    margin: 0;
+}
+
+figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul,
+li {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+a:hover {
+    text-decoration: none;
+    color: unset;
+}
