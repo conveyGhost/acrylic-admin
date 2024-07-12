@@ -110,7 +110,6 @@ export default function Register() {
             </Grid>
             <Button
               type="submit"
-              fullWidth
               variant="contained"
               sx={{ mt: 3, mb: 2 }}
             >
@@ -119,7 +118,7 @@ export default function Register() {
             <Grid container justifyContent="flex-end">
               <Grid item>
                 <Link href="/login" variant="body2">
-                  Already have an account? Please Sign in
+                  Already have an accounts? Sign In
                 </Link>
               </Grid>
             </Grid>
